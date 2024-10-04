@@ -1,3 +1,4 @@
+// Sección Contacto
 const contactForm = document.querySelector('.contacto__formulario');
 contactForm.addEventListener('submit', (e) => {
     const name = contactForm.querySelector('input[name="name"]').value;
